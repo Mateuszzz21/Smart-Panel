@@ -1,4 +1,4 @@
-#pragma once
+è#pragma once
 
 #include <Arduino.h>
 #include <WiFi.h>
@@ -18,8 +18,8 @@
 // ============================
 // WIFI
 // ============================
-static const char* WIFI_SSID = "Dom332";
-static const char* WIFI_PASS = "Lukasz0331";
+static const char* WIFI_SSID = "****";
+static const char* WIFI_PASS = "****";
 
 // ============================
 // TUYA CLOUD
