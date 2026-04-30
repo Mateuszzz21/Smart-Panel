@@ -125,7 +125,7 @@ static const int WEATHER_FORECAST_PLUS_HOURS = 4;
 // ============================
 // FIRMWARE
 // ============================
-static const char* FW_VERSION = "STABLE v2.0";
+static const char* FW_VERSION = "STABLE v 1.0";
 
 // ============================
 // LOKALNE API APP <-> PANEL
