@@ -1,4 +1,4 @@
-è#pragma once
+#pragma once
 
 #include <Arduino.h>
 #include <WiFi.h>
@@ -63,8 +63,8 @@ static const float TEMP_HOME_OFFSET_C = 0.0f;
 // ============================
 // Jezeli BL ekranu NIE jest podlaczone do sterowanego pinu, zostaw PWM wylaczone.
 // Wtedy ustawienie "Jasnosc" nadal bedzie dzialalo przez zmiane kontrastu UI.
-static const bool TFT_BL_PWM_ENABLED = false;
-static const int  TFT_BL_PIN         = -1;     // ustaw np. na pin tranzystora BL, jesli go uzywasz
+static const bool TFT_BL_PWM_ENABLED = true;
+static const int  TFT_BL_PIN         = 17;     // ustaw np. na pin tranzystora BL, jesli go uzywasz
 static const int  TFT_BL_PWM_CH      = 0;
 static const int  TFT_BL_PWM_FREQ    = 5000;
 static const int  TFT_BL_PWM_BITS    = 8;
